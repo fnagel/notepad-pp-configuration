@@ -31,5 +31,7 @@ Feel free to send PRs or add issues here at GitHub.
 
 ## Ressources
 
-* [Notepad++ function list forum thread](http://sourceforge.net/p/notepad-plus/discussion/331753/thread/b9d2fe00/)
 * [Markdown file support by Edditoria](https://github.com/Edditoria/markdown_npp_zenburn)
+* [Notepad++ function list forum thread](http://sourceforge.net/p/notepad-plus/discussion/331753/thread/b9d2fe00/)
+* [Notepad++ function list documentation](http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=Editing_Configuration_Files#FunctionList)
+
