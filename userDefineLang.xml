@@ -1,0 +1,219 @@
+<NotepadPlus>
+    <UserLang name="TypoScript" ext="ts ts3" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">03/* 04*/ 00# 00// 01 02</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">- . : [ ] ^ | ~ &lt; = &gt;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">{ (</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">} )</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">_CSS_DEFAULT_STYLE _DEFAULT_PI_VARS _GIFBUILDER _LOCAL_LANG BE_USER CARRAY CASE CLEARGIF COA COA_INT COBJ_ARRAY COLUMNS CONFIG CONSTANTS CONTENT CTABLE CType DB DOCUMENT_BODY EDITPANEL EFFECT FE_DATA FE_TABLE FEData FILE FORM FRAME FRAMESET GIFBUILDER global globalString globalVar GMENU GMENU_FOLDOUT GMENU_LAYERS GP HMENU HRULER HTML IENV IMAGE IMG_RESOURCE IMGMENU IMGMENUITEM IMGTEXT INCLUDE_TYPOSCRIPT includeLibs JSMENU JSMENUITEM LIT LOAD_REGISTER META MULTIMEDIA OTABLE PAGE PAGE_TARGET PAGE_TSCONFIG_ID PAGE_TSCONFIG_IDLIST PAGE_TSCONFIG_STR PHP_SCRIPT PHP_SCRIPT_EXT PHP_SCRIPT_INT RECORDS REMOTE_ADDR RESTORE_REGISTER RTE SEARCHRESULT SHARED TCAdefaults TCEFORM TCEMAIN TEMPLATE TEMPLATE_CAT_RELATED TEMPLATE_LIST TEXT TMENU TMENU_LAYERS TMENUITEM TSFE TYPO3_CONF_VARS USER USER_INT userFunc</Keywords>
+            <Keywords name="Keywords2">admPanel alt_print auth browser cache CHECK cObj cObject COMMENT config content copy CSS_inlineStyle cut dataArray dayofmonth dayofweek db_list device dynCSS edit edit_access edit_pageheader fe_admin_dmailsubscrip fe_admin_fe_users folder folderTree foldoutMenu Functions gmenu_foldout gmenu_layers hostname hour imgList imgResource imgText info IP jsmenu JSwindow LABEL layout levelmedia lib loginUser marks minute mod module month move_wizard new new_wizard noResultObj numRows options page pageTree paste perms PIDinRootline PIDupinRootline plaintext_content plugin postform postform_newThread preview publish RADIO renderObj REQ RTE_compliant select setup split stat stat_apache stat_apache_logfile stat_apache_niceTitle stat_apache_noHost stat_apache_noRoot stat_apache_notExtended stat_apache_pagenames stat_excludeBEuserHits stat_excludeIPList stat_mysql stat_pageLen stat_titleLen stat_typeNumList subparts system temp template tipafriend_template tmpl treeLevel tsdebug typolink url useragent version view workOnSubpart</Keywords>
+            <Keywords name="Keywords3">ACT ACTIFSUB ACTIFSUBRO ACTRO all arrowACT arrowNO ascii atLeast atMost BE be_groups be_users BOX browse bullets CUR CURIFSUB CURIFSUBRO CURRO default description directory directReturn div else email end equals external false FE fe_groups fe_users feadmin header html id if ifBlank ifEmpty IFSUB IFSUBRO image inBranch isFalse isGreaterThan isInList isLessThan isPositive isTrue keywords language leveltitle list login mailform media menu multimedia negate NEW NO none pages pages_language_overlay parseFunc_RTE pid required RO rootline script search shortcut sitemap SPC splash sys_dmail sys_domain sys_filemounts sys_note sys_template tabel textpic this top true tt_address tt_board tt_board_list tt_board_tree tt_calender tt_content tt_guest tt_news tt_poll tt_products tt_rating twice tx_automaketemplate_pi1 tx_belog_webinfo tx_browserpagetitle tx_browserpagetitle_browser_title tx_chcforum_pi1 tx_cms_layout tx_cms_webinfo_hits tx_cms_webinfo_lang tx_cms_webinfo_page tx_cssstyledcontent_pi1 tx_dephpot_pi1 tx_extkey tx_extkey_controllers tx_extkey_login tx_extrapagecmoptions tx_funcwizards_webfunc tx_gooffotoboek_pi1 tx_impexp tx_impexp_clickmenu tx_impexp_modfunc1 tx_indexed_search_extparse tx_indexedsearch tx_indexedsearch_indexer tx_indexedsearch_lexer tx_indexedsearch_modfunc1 tx_indexedsearch_modfunc2 tx_indexedsearch_pihook tx_infopagetsconfig_webinfo tx_install tx_lzgallery_pi1 tx_macinasearchbox_pi1 tx_mhajaxsearch_pi1 tx_mhajaxsearch_q tx_mhajaxsearch_result tx_mhajaxsearch_search tx_newloginbox_pi1 tx_newloginbox_pi3 tx_open_printlink tx_pdfgenerator tx_pdfgenerator2 tx_realurl_advanced tx_realurl_enable tx_realurl_pathsegment tx_realurl_pi1 tx_rlmptmplselector tx_rlmptmplselector_pi1 tx_sochat_pi1 tx_srfeuserregister_pi1 tx_sv_auth tx_sv_authbase tx_sysaction tx_templavoila_pi1 tx_terdoc_pi1 tx_ttnews tx_ttnews_catmenu tx_ttnews_itemsProcFunc tx_ttnews_tcemain tx_ttnews_treeview tx_ttproducts_pi1 tx_veguestbook_pi1 tx_version_cm1 tx_vjchat_chat tx_vjchat_pi1 tx_wizardcrpages_webfunc_2 tx_wizardsortpages_webfunc_2 tx_wwwebstats4u_pi1 uid uniqueGlobal uniqueLocal unsetEmpty updated us user_task USERDEF1 USERDEF1RO USERDEF2 USERDEF2RO usergroup USR USRRO web_func web_info web_layout web_list web_ts xhtml_strict xhtml_trans xMOD_alt_doc XY ypMenu</Keywords>
+            <Keywords name="Keywords4">_offset absRefPrefix accessibility accessKey addAttributes addExtUrlsAndShortCuts addHeight addItems additionalHeaders additionalParams additionalPreviewLanguages addParams addQueryString addWidth adjustItemsH adjustSubItemsH adminPanelStyles after afterImg afterImgLink afterImgTagParams afterROImg afterWrap age alertPopups align allow allowCaching allowedAttribs allowedClasses allowedCols allowEdit allowedNewTables allowNew allowTags allowTagsOutside allowTVlisting allSaveFunctions allStdWrap allWrap alternateBgColors alternativeSortingField alternativeTempPath altImgResource altLabels altMainMarkers altTarget altText altUrl altUrl_noDefaultParams altWrap always alwaysActivePIDlist alwaysLink alwaysShowClickMenuInTopFrame andWhere angle antiAlias appearance append appendSViewPBtoContent applyTotalH applyTotalW archive archiveTypoLink arrayReturnMode arrowImgParams ATagAfterWrap ATagBeforeWrap ATagParams ATagTitle attribute autoInsertPID autoLevels autonumber autoSizeMax backColor background backPid badMess baseProtocol baseProtocol baseURL before beforeImg beforeImgLink beforeImgTagParams beforeROImg beforeWrap begin beLoginLinkIPList beLoginLinkIPList_login beLoginLinkIPList_logout beUserLogin bgCol bgcolor bgImg blankStrEqFalse blur bm bodyTag bodyTagAdd bodyTagCObject bodyTagMargins bodytext border borderCol bordersWithin borderThick bottomBackColor bottomContent bottomHeight bottomImg bottomImg_mask br brTag bullet bulletlist bytes cache_clearAtMidnight cache_period caption caption_stdWrap captionAlign captionHeader captionSplit case casesensitiveComp categoryMode catmenu_stdWrap catmenuItem_ACT_stdWrap catmenuItem_NO_stdWrap catmenuLevel1_stdWrap catmenuLevel2_stdWrap catmenuLevel3_stdWrap catmenuLevel4_stdWrap cellpadding cellspacing centerImgACT centerImgCUR centerImgNO centerLeftImgACT centerLeftImgCUR centerLeftImgNO centerRightImgACT centerRightImgCUR centerRightImgNO char charcoal charMapConfig check class classesAnchor classesCharacter classesImage classesParagraph classicPageEditMode clear clearCache clearCache_disable clearCache_pageGrandParent clearCache_pageSiblingChildren clearCacheCmd clearCacheLevels clearCacheOfPages clickMenuTimeOut clickTitleMode clipboardNumberPads cMargins cObjNum collapse color color1 color2 color3 color4 colors colour colPos colPos_list colRelations cols colSpace comment_auto commentWrap compensateFieldWidth compX compY condensedMode conf constants content_from_pid_allowOutsideDomain contentCSS contextMenu copyLevels count_HMENU_MENUOBJ count_menuItems count_MENUOBJ create createFoldersInEB crop csConv current curUid cWidth data dataWrap date date_stdWrap datePrefix datetimeDaysToArchive debug debugData debugFunc debugItemConf debugRenumberedObject defaultAlign defaultCmd defaultFileUploads defaultHeaderType defaultLanguageFlag defaultLanguageLabel defaultOutput defaults defaultType defLangBinding delete denyTags depth DESC dimensions directionLeft directionUp disableAdvanced disableAllHeaderCode disableAltText disableBigButtons disableCacheSelector disableCharsetHeader disableCMlayers disabled disableDelete disableDocModuleInAB disableDocSelector disableHideAtCopy disableIconLinkToContextmenu disableIconToolbar disableImgBorderAttr disableItems disableNewContentElementWizard disableNoMatchingValueElement disablePageExternalUrl disablePathInfo disablePrefixComment disablePrependAtCopy disableSearchBox disableSingleTableView disableTabInTextarea disableTitleHighlight displayActiveOnLoad displayCatMenu displayContent displayFieldIcons displayIcons displayLatest displayList displayMessages displayQueries displayRecord displaySingle displayTimes distributeX distributeY DIV doctype doctypeSwitch doktype doNotLinkIt doNotShowLink doNotStripHTML dontCheckPid dontConvBRtoParagraph dontFollowMouse dontHideOnMouseUp dontLinkIfSubmenu dontMd5FieldNames dontMountAdminMounts dontShowPalettesOnFocusInAB dontWrapInTable doubleBrTag doublePostCheck dWorkArea edge edit_docModuleUpload edit_RTE edit_showFieldHelp edit_wideDocument editFieldsAtATime editFormsOnPage editIcons editNoPopup editPanel effects elements emailMeAtLogin emailMess emboss enable enableArchiveDate enableConfigValidation enableContentLengthHeader encapsLines encapsLinesStdWrap encapsTagList entryHTMLparser_db entryLevel equalH everybody excludeDoktypes excludeUidList expAll expand explode ext externalBlocks extTarget face fe_adminLib fe_user field fieldOrder fieldPrefix fieldRequired fields fieldWrap file file1 file2 file3 file4 file5 filelink filelist firstLabel firstLabelGeneral fixAttrib flip flop foldSpeed foldTimer fontColor fontFile fontOffset fontSize fontSizeMultiplicator fontTag forceDisplayFieldIcons forceDisplayIcons forceNoPopup forceTemplateParsing forceTypeValue foreign_label foreign_selector foreign_unique format formName frame frameReloadIfNotInFrameset frameSet freezeMouseover ftu function gamma gapBgCol gapLineCol gapLineThickness gapWidth get getBorder getLeft getRight getText globalNesting goodMess gr_list gray group groupBy groupid header_layout header_link header_position headerClass headerComment headerData headerSpace headerStyle headTag height helpText hidden hiddenFields hide hideButCreateMap hideButtons hideMenuTimer hideMenuWhenNotOver hidePStyleItems hideRecords hideSubmoduleIcons hideTables highColor history hover hoverStyle HTMLparser HTMLparser_tags htmlSpecialChars htmlTag_dir htmlTag_langKey htmlTag_setParams http icon icon_image_ext_list icon_link iconCObject ignoreUseSubcategoriesForAndSelection image_compression image_effects image_frames imageLinkWrap imagePath images imagewidth imageWrapIfAny imgMap imgMapExtras imgMax imgNameNotRandom imgNamePrefix imgObjNum imgParams imgPath imgStart imgtext import inc includeCSS includeJS includeLibrary includeNotInMenu incT3Lib_htmlmail index index_descrLgd index_enable index_externals inline inlineStyle2TempFile innerStdWrap innerStdWrap_all innerWrap innerWrap2 input inputLevels insertClassesFromRTE insertData insertDmailerBoundaries intensity internalizeFontTags intTarget intval invert IProcFunc itemArrayProcFunc itemH items itemsProcFunc iterations join JSWindow JSwindow_params jumpurl jumpurl_enable jumpurl_mailto_disable jumpUrl_transferSession keep keepEntries keepNonMatchedTags key label labelStdWrap labelWrap lang language_alt languageField latestLimit latestWithCatSelector layer_menu_id layerStyle left leftIcons leftImgACT leftImgCUR leftImgNO leftjoin leftOffset levelmedia levels leveluid limit line lineColor lineThickness linkPrefix linkTitleToSelf linkToTop linkVars linkWrap listNum listOnlyInSingleTableView lm locale_all localNesting locationData lockFilePath lockPosition lockPosition_addSelf lockPosition_adjust lockToIP longdescURL lowColor lower LR mailto main mainScript makelinks markerWrap mask max max_size maxAge maxAgeDays maxChars maxH maxHeight maxitems maxW maxWidth maxWInText maxWordsInSingleView mayNotCreateEditShortcuts meaningfulTempFilePrefix menu_type menuBackColor menuHeight menuName menuOffset menuWidth message_page_is_being_generated message_preview message_preview_workspace meta metaCharset method min minH minitems minW mode moduleMenuCollapsable MP_defaults MP_disableTypolinkClosestMPvalue MP_mapRootPoints name navFrameResizable navFrameWidth nesting netprintApplicationLink neverHideAtCopy newContentWiz newPageWiz newRecordFromTable newRecordInPid newWindow newWizards next niceText no_cache no_search noAttrib noBlur noCache noCols noCreateRecordsLink noLink noLinkUnderline noMatchingValue_label noMenuMode nonCachedSubst nonTypoTagStdWrap nonTypoTagUserFunc nonWrappedTag noOrderBy noPageBrowser noPageTitle noRows noScaleUp noStretchAndMarginCells noThumbsInEB noThumbsInRTEimageSelect notification_email_charset notification_email_encoding notification_email_urlmode noTrimWrap noValueInsert noWrapAttr obj offset offsetWrap onlineWorkspaceInfo onlyCurrentPid opacity orderBy outerWrap outline outputLevels override overrideAttribs overrideEdit overrideId overridePageModule overrideWithExtension overruleMode pageBreakToken pageFrameObj pageGenScript pageTitleFirst parameter params parseFunc parser password path permissions pid_list pidInList pixelSpaceFontSizeRef plaintextLib plainTextStdWrap postBlanks postCObject postLineBlanks postLineChar postLineLen postUserFunc postUserFuncInt preBlanks preCObject prefix prefixComment prefixLocalAnchors prefixRelPathWith preIfEmptyListNum preLineBlanks preLineChar preLineLen prepend preserveEntities preserveTables preUserFunc prev previewBorder prevnextToSection printheader prioriCalc proc processScript properties protect protectLvar publish_levels QEisDefault quality radio radioWrap range rawUrlEncode recipient recursive recursiveDelete redirect redirectToURL reduceColors register relatedByCategory_stdWrap relatedByCategoryHeader_stdWrap relativeToParentLayer relativeToTriggerItem relPathPrefix remap remapTag removeBadHTML removeDefaultJS removeIfEquals removeIfFalse removeItems removeObjectsOfDummy removePrependedNumbers removeTags removeWrapping renderCharset renderWrap reset resources resultObj returnKey returnLast returnUrl rightImgACT rightImgCUR rightImgNO rightjoin rm rmTagIfNoAttrib RO_chBgColor rotate rows rowSpace rte_enabled RTEfullScreenWidth RTEkeyList rules sample saveClipboard saveDocNew secondRow section section_frame sectionIndex select_key selectFields sendCacheHeaders sendCacheHeaders_onlyWhenLoginDeniedInBranch separator set setContentToCurrent setCurrent setfixed setFixedHeight setFixedWidth setJS_mouseOver setJS_openPic setOnly shadow sharpen shear short shortcut_onEditId_dontSetPageTree shortcut_onEditId_keepExistingExpanded shortcutFrame shortcutGroups shortcutIcon show show_thumbs showAccessRestrictedPages showActive showButtons showClipControlPanelsDespiteOfCMlayers showDomainNameWithTitle showFirst showHiddenPages showHiddenRecords showHistory showIfRTE showPageIdWithTitle showTagFreeClasses simulateDate simulateStaticDocuments simulateStaticDocuments_addTitle simulateStaticDocuments_dontRedirectPathInfoError simulateStaticDocuments_noTypeIfNoTitle simulateStaticDocuments_pEnc simulateStaticDocuments_pEnc_onlyP simulateStaticDocuments_replacementChar simulateUserGroup singleMaxH singleMaxW singlePid site_author site_keywords site_reserved sitetitle siteUrl size slide smallFormFields solarize sorting source space spaceAfter spaceBefore spaceBelowAbove spaceLeft spaceRight spacing spamProtectEmailAddresses spamProtectEmailAddresses_atSubst spamProtectEmailAddresses_lastDotSubst special splitChar splitRendering src startInTaskCenter stayFolded stdheader stdWrap stdWrap2 strftime stripHtml styles stylesheet subheaderOnAllSViewPages submenuObjSuffixes subMenuOffset submit subst_elementUid substMarksSeparately substring swirl sword sword_noMixedCase SWORD_PARAMS sword_standAlone symmetric_label sys_language_mode sys_language_overlay sys_language_softExclude sys_language_softMergeIfNotBlank sys_language_uid sys_page table tableCellColor tableParams tables tableStdWrap tableStyle tableWidth tags target TCAselectItem TDparams templateContent templateFile text text_align text_color text_face text_properties text_size textarea textMargin textMargin_outOfText textMaxLength textObjNum textPos textStyle thickness thumbnailsByDefault tile time_stdWrap tipafriendLib title titleLen titleTagFunction titleText tm token topOffset totalWidth translateToMessage transparentBackground transparentColor trim tsdebug_tree type typeNum types typolinkCheckRootline typolinkLinkAccessRestrictedPages typolinkLinkAccessRestrictedPages_addParams uidInList uniqueLinkVars unset uploadFieldsInTopOfEB uploads upper useCacheHash useHRDates useLargestItemX useLargestItemY useMultiPageSingleView useParagraphAsPagebreak user userdefined userfunction userid userIdColumn USERNAME_substToken userProc USERUID_substToken value valueArray wave where width wiz wordSpacing workArea wrap wrap1 wrap2 wrap3 wrapAfterTags wrapAlign wrapFieldName wrapItemAndSub wrapNonWrappedLines wraps xhtml_cleaning xhtmlDoctype xmlprologue xPosOffset yPosOffset</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="808080" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="408080" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="2" fontSize="" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008040" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="2" fontSize="" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF00FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FF8000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="1" fontSize="" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF0000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="1" fontSize="" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="0060A0" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="008000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+    <UserLang name="SASS / LESS" ext="scss sass less" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="yes" Keywords4="yes" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">03/* 04*/ 00// 01 02</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">&apos; % ( ) , : ;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">azimuth background background-attachment background-color background-image background-position background-repeat background-size border border-bottom border-bottom-color border-bottom-style border-bottom-width border-collapse border-color border-left border-left-color border-left-style border-left-width border-right border-right-color border-right-style border-right-width border-spacing border-style border-top border-top-color border-top-style border-top-width border-width bottom caption-side clear clip color content counter-increment counter-reset cue cue-after cue-before cursor direction display elevation empty-cells float font font-family font-size font-size-adjust font-stretch font-style font-variant font-weight height left letter-spacing line-height list-style list-style-image list-style-position list-style-type margin margin-bottom margin-left margin-right margin-top marker-offset marks max-height max-width min-height min-width orphans outline outline-color outline-style outline-width overflow padding padding-bottom padding-left padding-right padding-top page page-break-after page-break-before page-break-inside pause pause-after pause-before pitch pitch-range play-during position quotes richness right size speak speak-header speak-numeral speak-punctuation speech-rate stress table-layout text-align text-decoration text-indent text-shadow text-transform top unicode-bidi vertical-align visibility voice-family volume white-space widows width word-spacing z-index</Keywords>
+            <Keywords name="Keywords2">active after before checked disabled empty enabled first first-child first-letter first-line first-of-type focus hover lang last-child last-of-type left link not only-child only-of-type nth-child right root target visited</Keywords>
+            <Keywords name="Keywords3"># .</Keywords>
+            <Keywords name="Keywords4">@ $</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&apos; 01 02&apos; 03&quot; 04 05&quot; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="00AA00" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="00AA00" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="844F00" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+    <UserLang name="Htaccess" ext="htaccess" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">03 04 00# 01 02</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">! %</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">&lt;IfModule &lt;FilesMatch</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">&lt;/IfModule&gt; &lt;/FilesMatch&gt;</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">RewriteEngine RewriteBase RewriteCond RewriteRule ExpiresActive ExpiresByType SetOutputFilter Header php_value</Keywords>
+            <Keywords name="Keywords2">On Off on off</Keywords>
+            <Keywords name="Keywords3"></Keywords>
+            <Keywords name="Keywords4"></Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00{ 01 02} 03[ 04 05] 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="0000A0" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="8080FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="804000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+    <UserLang name="Markdown" ext="md markdown" udlVersion="2.0">
+        <!-- Modified by Edditoria, originally created by thomsmits @ git,
+        see https://github.com/Edditoria/markdown_npp_zenburn for latest version -->
+        <Settings>
+            <Global caseIgnored="yes" forceLineCommentsAtBOL="yes" />
+            <Prefix Keywords1="yes" Keywords2="yes" Keywords3="yes" Keywords4="yes" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments" id="0">00# 01 02 03&lt;!-- 04--&gt;</Keywords>
+            <Keywords name="Operators1" id="5">&lt; &gt;</Keywords>
+            <Keywords name="Operators2" id="6">* - +</Keywords>
+            <Keywords name="Keywords1" id="16">http:// (http:// https:// (https:// (/ /</Keywords>
+            <Keywords name="Keywords2" id="17">==== ----</Keywords>
+            <Keywords name="Keywords3" id="18">** __</Keywords>
+            <Keywords name="Keywords4" id="19">* _</Keywords>
+            <Keywords name="Delimiters" id="24">00[ 01 02] 03` 04 05`</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="333333" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" styleID="2" fgColor="FF8040" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="NUMBERS" styleID="3" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" styleID="4" fgColor="408080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" styleID="5" fgColor="FF8040" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" styleID="6" fgColor="400080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" styleID="7" fgColor="400080" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="OPERATORS" styleID="12" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS1" styleID="16" fgColor="408080" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="DELIMITERS2" styleID="17" fgColor="FF80C0" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
