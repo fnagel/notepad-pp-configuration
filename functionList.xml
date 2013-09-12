@@ -14,6 +14,7 @@
 			L_CMAKE: 48   L_YAML: 49      L_COBOL 50    L_GUI4CLI: 51  L_D: 52         L_POWERSHELL: 53
 			L_R: 54       L_JSP: 55
 		-->
+			<association langID="1" id="php_class"/>
 			<association langID = "2" id="cpp_class"/>
 			<association langID = "3" id="c_cpp_function"/>
 			<association langID = "19" id="js_function"/>
