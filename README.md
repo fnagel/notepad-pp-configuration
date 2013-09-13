@@ -23,6 +23,7 @@ _Pease note: tested in default style only!_
 	* support for .htaccess files
 	* support for Markdown files
 	* support for Twig files
+	* support for Puppet files
 
 	
 ## Bugs reports & Pull Requests
@@ -34,6 +35,9 @@ Feel free to send PRs or add issues here at GitHub.
 
 * [Markdown file support by Edditoria](https://github.com/Edditoria/markdown_npp_zenburn)
 * [Twig UserDefinedLanguage by Paolo Priotto](http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=User_Defined_Language_Files#T)
+* [Puppet UserDefinedLanguage by Garrett Boast](http://garrettboast.com/development.php)
+
 * [Notepad++ function list forum thread](http://sourceforge.net/p/notepad-plus/discussion/331753/thread/b9d2fe00/)
 * [Notepad++ function list documentation](http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=Editing_Configuration_Files#FunctionList)
+* [Notepad++ UDL wiki page](http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=User_Defined_Language_Files)
 
