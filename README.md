@@ -36,6 +36,8 @@ Feel free to send PRs or add issues here at GitHub.
 * [Markdown file support by Edditoria](https://github.com/Edditoria/markdown_npp_zenburn)
 * [Twig UserDefinedLanguage by Paolo Priotto](http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=User_Defined_Language_Files#T)
 * [Puppet UserDefinedLanguage by Garrett Boast](http://garrettboast.com/development.php)
+* [JavaScript functionList by Rob Kodey](https://sourceforge.net/p/notepad-plus/discussion/331753/thread/b9d2fe00/#70bc)
+* [PHP functionList by Deadooshka](https://sourceforge.net/p/notepad-plus/discussion/331753/thread/b9d2fe00/#1fc8)
 
 * [Notepad++ function list forum thread](http://sourceforge.net/p/notepad-plus/discussion/331753/thread/b9d2fe00/)
 * [Notepad++ function list documentation](http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=Editing_Configuration_Files#FunctionList)
