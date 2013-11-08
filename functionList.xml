@@ -164,7 +164,7 @@
 				</function>
 			</parser>
 
-			<parser id="php_class" displayName="PHP Class" commentExpr="\/\*[\s\S]*?\*\/|(?:\/\/|\#)[^\r\n]*">
+			<parser id="php_function" displayName="PHP Class" commentExpr="\/\*[\s\S]*?\*\/|(?:\/\/|\#)[^\r\n]*">
 				<classRange mainExpr="\s(?:(?:class|interface)\s+[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*(?:\s+(?:extends|implements)\s+(?:[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*(?:\s*\,\s*)?)+)?|trait\s+[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*)\s*\{" openSymbole = "\{" closeSymbole = "\}" displayMode="node">
 					<className>
 						<nameExpr expr="(?:interface|class|trait)\s+\K[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*"/>
