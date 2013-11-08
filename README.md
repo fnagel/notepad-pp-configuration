@@ -14,31 +14,38 @@ _Pease note: tested in default theme only!_
 
 
 ## Features
-* **Function List:** 
-	* support for JavaScript files (functions, plugins, widgets, ...)
-	* improved PHP function support
-* **UserDefinedLanguage** 
-	* support for TYPO3 CMS TypoScript
-	* support for LESS / SASS
-	* support for .htaccess files
-	* support for Markdown files
-	* support for Twig files
-	* support for Puppet files
+
+### Function List
+* support for JavaScript files (functions, plugins, widgets, ...)
+* improved PHP function support
+	
+### UserDefinedLanguage
+
+support for 
+
+* TYPO3 CMS TypoScript
+* LESS / SASS
+* .htaccess files
+* Markdown files
+* Twig files
+* Puppet files
 
 	
-## Bugs reports & Pull Requests
+## Contribution
 
 Feel free to send PRs or add issues here at GitHub.
 
 
 ## Ressources
 
+### Snippets
 * [Markdown file support by Edditoria](https://github.com/Edditoria/markdown_npp_zenburn)
 * [Twig UserDefinedLanguage by Paolo Priotto](http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=User_Defined_Language_Files#T)
 * [Puppet UserDefinedLanguage by Garrett Boast](http://garrettboast.com/development.php)
 * [JavaScript functionList by Rob Kodey](https://sourceforge.net/p/notepad-plus/discussion/331753/thread/b9d2fe00/#70bc)
 * [PHP functionList by Deadooshka](https://sourceforge.net/p/notepad-plus/discussion/331753/thread/b9d2fe00/#1fc8)
 
+### Info
 * [Notepad++ function list forum thread](http://sourceforge.net/p/notepad-plus/discussion/331753/thread/b9d2fe00/)
 * [Notepad++ function list documentation](http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=Editing_Configuration_Files#FunctionList)
 * [Notepad++ UDL wiki page](http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=User_Defined_Language_Files)
