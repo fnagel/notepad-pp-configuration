@@ -1,4 +1,4 @@
-# A Notepad++ configuration for webdevelopers
+# A Notepad++ config for webdevs
 
 This repository contains configuration files for [Notepad++](http://notepad-plus-plus.org/).
 It's basically a collection of well working snippets for extended language support and the new built in function list.
@@ -10,12 +10,12 @@ Just copy the files into the root directory of your notepad++ installation. Rest
 
 _Notepad++ version 6.3 or higher needed (as built-in function list was introduced)!_
 
-_Pease note: tested in default style only!_
+_Pease note: tested in default theme only!_
 
 
 ## Features
 * **Function List:** 
-	* support for JS functions
+	* support for JavaScript files (functions, plugins, widgets, ...)
 	* improved PHP function support
 * **UserDefinedLanguage** 
 	* support for TYPO3 CMS TypoScript
