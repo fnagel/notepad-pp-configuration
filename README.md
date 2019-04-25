@@ -6,18 +6,17 @@ It's basically a collection of well working snippets for extended language suppo
 
 ## Installation
 
-Just copy the files into the root directory of your notepad++ installation. Restart N++.
+* Copy the files into 
+	* the root directory of your notepad++ installation. 
+	* OR `C:\Users\USERNAME\AppData\Roaming\Notepad++`
+* Restart N++.
 
-_Notepad++ version 6.3 or higher needed (as built-in function list was introduced)!_
+_Notepad++ version 7.6 or higher needed!_
 
 _Pease note: tested in default theme only!_
 
 
 ## Features
-
-### Function List
-* support for JavaScript files (functions, plugins, widgets, ...)
-* improved PHP function support
 	
 ### UserDefinedLanguage
 
